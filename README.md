@@ -1,19 +1,18 @@
 # pranshu-swarm-relay
 
-**Autonomous deployment and trajectory execution of an ad-hoc aerial victim relay** — a
+**Autonomous deployment and trajectory execution of an ad-hoc aerial victim relay**: A
 multi-drone system that flies a chain of DJI Robomaster TT (Tello) drones through a
 **GPS-denied indoor arena** and lands them in a contiguous, sub-metre-spaced relay line.
 
-Built for the **SAFMC 2026 Swarm Challenge** — placed **3rd Runners-Up** with a **Judge's
-Commendation**.
+Built for the **SAFMC 2026 Swarm Challenge**: Placed **3rd Runners-Up** with a **Judge's
+Commendation**🎖️.
 
 ---
 
 ## About this repository
 
 This was a **team project**. The full system (including the centralised swarm server) was
-developed collaboratively; the original team repository is here:
-**[original team repo → TODO: add link]**.
+developed collaboratively.
 
 This repo contains **my portion** of the work — the drone-side autonomy — extracted and
 organised as a portfolio piece. Where my code depends on a teammate's module, that module
