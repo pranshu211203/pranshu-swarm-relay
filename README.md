@@ -1,10 +1,10 @@
 # pranshu-swarm-relay
 
-**Autonomous deployment and trajectory execution of an ad-hoc aerial victim relay** — a
+**Autonomous deployment and trajectory execution of an ad-hoc aerial victim relay**: A
 multi-drone system that flies a chain of DJI Robomaster TT (Tello) drones through a
 **GPS-denied indoor arena** and lands them in a contiguous, sub-metre-spaced relay line.
 
-Built for the **SAFMC 2026 Swarm Challenge** — placed **3rd Runners-Up** with a **Judge's
+Built for the **SAFMC 2026 Swarm Challenge**: Placed **3rd Runners-Up** with a **Judge's
 Commendation**.
 
 ---
