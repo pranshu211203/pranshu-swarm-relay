@@ -12,8 +12,7 @@ Commendation**.
 ## About this repository
 
 This was a **team project**. The full system (including the centralised swarm server) was
-developed collaboratively; the original team repository is here:
-**[original team repo → TODO: add link]**.
+developed collaboratively.
 
 This repo contains **my portion** of the work — the drone-side autonomy — extracted and
 organised as a portfolio piece. Where my code depends on a teammate's module, that module
