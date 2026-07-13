@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & runtime artifacts
+*.log
+log_markerserver.log
+
+# Third-party binary (not redistributed — see README)
+nlink_unpack_COMx_udp.exe
+
+# Teammate-owned module (not part of this repo — see relay/SWARMSERVER_INTERFACE.md)
+swarmserverclient.py

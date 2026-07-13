@@ -1,0 +1,85 @@
+{
+    "README": "Waypoint list of relay drone endpoint positions. Each entry = current drone hover position + dist/angle to the NEXT drone. Drone 01 (first entry) is nearest the safe-zone/start side. The final entry is closest to the goal and has dist_cm=0 and angle_deg=0. Positions are sub-cell accurate float cm. Consecutive distances are at most 100 cm (1 m).",
+    "wp": [
+        {
+            "dist_cm": 100.0,
+            "angle_deg": 0,
+            "position_cm": {
+                "x": 380.0,
+                "y": 211.92
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": 0,
+            "position_cm": {
+                "x": 380.0,
+                "y": 311.92
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": 0,
+            "position_cm": {
+                "x": 380.0,
+                "y": 411.92
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": 16,
+            "position_cm": {
+                "x": 380.0,
+                "y": 511.92
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": 29,
+            "position_cm": {
+                "x": 407.94,
+                "y": 607.94
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": 33,
+            "position_cm": {
+                "x": 478.65,
+                "y": 678.65
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": -64,
+            "position_cm": {
+                "x": 576.34,
+                "y": 700.0
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": -41,
+            "position_cm": {
+                "x": 600.0,
+                "y": 797.16
+            }
+        },
+        {
+            "dist_cm": 100.0,
+            "angle_deg": -43,
+            "position_cm": {
+                "x": 554.03,
+                "y": 885.97
+            }
+        },
+        {
+            "dist_cm": 0,
+            "angle_deg": 0,
+            "position_cm": {
+                "x": 460.0,
+                "y": 920.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+@echo off
+start "RPi22" cmd /k ssh -t telloswarm@192.168.0.122 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG22' password 'telloswarm'; bash"
+start "RPi23" cmd /k ssh -t telloswarm@192.168.0.123 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG23' password 'telloswarm'; bash"
+start "RPi24" cmd /k ssh -t telloswarm@192.168.0.124 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG24' password 'telloswarm'; bash"
+start "RPi25" cmd /k ssh -t telloswarm@192.168.0.125 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG25' password 'telloswarm'; bash"
+start "RPi26" cmd /k ssh -t telloswarm@192.168.0.126 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG26' password 'telloswarm'; bash"
+start "RPi27" cmd /k ssh -t telloswarm@192.168.0.127 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG27' password 'telloswarm'; bash"
+start "RPi28" cmd /k ssh -t telloswarm@192.168.0.128 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG28' password 'telloswarm'; bash"
+start "RPi29" cmd /k ssh -t telloswarm@192.168.0.129 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG29' password 'telloswarm'; bash"
+start "RPi30" cmd /k ssh -t telloswarm@192.168.0.130 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG19' password 'telloswarm'; bash"
+start "RPi31" cmd /k ssh -t telloswarm@192.168.0.131 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG20' password 'telloswarm'; bash"
+start "RPi32" cmd /k ssh -t telloswarm@192.168.0.132 "sudo iwlist wlan0 scan | grep ESSID && sudo nmcli device wifi connect 'RMTT-TAG21' password 'telloswarm'; bash"

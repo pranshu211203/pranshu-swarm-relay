@@ -1,0 +1,8 @@
+# Third-party dependencies used by this project.
+# (Standard-library modules — socket, threading, json, math, argparse, etc. — are not listed.)
+
+djitellopy      # DJI Tello / Robomaster TT SDK wrapper (drone control)
+numpy           # numerical work in UWB parsing and mission logic
+pandas          # tabular handling in analysis
+matplotlib      # plotting in analysis/bar_chart.py
+PyYAML          # YAML config parsing
